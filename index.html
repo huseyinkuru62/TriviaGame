@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--link to css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+<!--link to javascript-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    
+    <title>Trivia Game</title>
+</head>
+
+<body>
+    <div id="header">
+        <img class="logo" src="assets/images/PokemonLogo.png">
+        <h1>Trivia Game</h1>
+    </div>   
+        
+    <div id="startPage">        
+            <div id="timer"></div>
+    
+            <div id="startButton">
+                <button type="button" onclick="">START</button>
+            </div>
+    </div>
+
+    <div id="questionsContainer">     
+        <form name="quizform">
+        
+            <section class="questionBox" id="q1">
+                <img class="charImg" src="assets/images/pikachu.png">
+                <div class="questions" >
+                    <h3>1. Name the above pokemon:</h3>
+            
+                    <input type="radio" name="q1" value="a">a. Pikachu<br>
+                    <input type="radio" name="q1" value="b">b. Eevee<br>
+                    <input type="radio" name="q1" value="c">c. Snorlax<br>
+                    <input type="radio" name="q1" value="d">d. Charizard<br>
+                </div>
+            </section>
+
+            <section class="questionBox" id="q2">
+                <img class="charImg" src="assets/images/lucario.png">
+                <div class="questions" >
+                    <h3>2. Name the above pokemon:</h3>
+            
+                    <input type="radio" name="q2" value="a">a. Charmander<br>
+                    <input type="radio" name="q2" value="b">b. Bulbasaur<br>
+                    <input type="radio" name="q2" value="c">c. Lucario<br>
+                    <input type="radio" name="q2" value="d">d. Arceus<br>
+                </div>
+            </section>
+
+            <section class="questionBox" id="q3">
+                <img class="charImg" src="assets/images/mew.png">
+                <div class="questions" >
+                    <h3>3. Name the above pokemon:</h3>
+            
+                    <input type="radio" name="q3" value="a">a. Gengar<br>
+                    <input type="radio" name="q3" value="b">b. Mew<br>
+                    <input type="radio" name="q3" value="c">c. Rayquaza<br>
+                    <input type="radio" name="q3" value="d">d. Dragonite<br>
+                </div>
+            </section>
+           
+            <section class="questionBox" id="q4">
+                <img class="charImg" src="assets/images/rayquaza.png">
+                <div class="questions" >
+                    <h3>4. Name the above pokemon:</h3>
+            
+                    <input type="radio" name="q4" value="a">a. Lucario<br>
+                    <input type="radio" name="q4" value="b">b. Mew<br>
+                    <input type="radio" name="q4" value="c">c. Rayquaza<br>
+                    <input type="radio" name="q4" value="d">d. Charmander<br>
+                </div>
+            </section>
+
+            <section class="questionBox" id="q5">
+                <img class="charImg" src="assets/images/dragonite.png">
+                <div class="questions" >
+                    <h3>5. Name the above pokemon:</h3>
+            
+                    <input type="radio" name="q5" value="a">a. Eevee<br>
+                    <input type="radio" name="q5" value="b">b. Pikachu<br>
+                    <input type="radio" name="q5" value="c">c. Mew<br>
+                    <input type="radio" name="q5" value="d">d. Dragonite<br>
+                </div>
+            </section>
+        
+            <section class="questionBox" id="q6">
+                <img class="charImg" src="assets/images/gengar.png">
+                <div class="questions" >
+                    <h3>6. Name the above pokemon:</h3>
+            
+                    <input type="radio" name="q6" value="a">a. Rayquaza<br>
+                    <input type="radio" name="q6" value="b">b. Gengar<br>
+                    <input type="radio" name="q6" value="c">c. Mew<br>
+                    <input type="radio" name="q6" value="d">d. Eevee<br>
+                </div>
+            </section>
+
+            <section class="questionBox" id="q7">
+                <img class="charImg" src="assets/images/eevee.png">
+                <div class="questions" >
+                    <h3>7. Name the above pokemon:</h3>
+            
+                    <input type="radio" name="q7" value="a">a. Rayquaza<br>
+                    <input type="radio" name="q7" value="b">b. Mew<br>
+                    <input type="radio" name="q7" value="c">c. Eevee<br>
+                    <input type="radio" name="q7" value="d">d. Gengar<br>
+                </div>
+            </section>
+                
+           <input type="submit" id="submit" value="Submit"> 
+        </form>
+
+    </div>
+
+    <div id="results"></div>
+
+</body>
+<footer>
+    <script src="assets/javascript/app.js"></script>
+</footer>
+
+</html>
